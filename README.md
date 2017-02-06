@@ -1,7 +1,7 @@
 # VPNTree
 <html>
 <body>
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/github_assets/icon.png" width="100px" alt="VPNTree"/>
 <h3 style="text-align: center;"><span style="color: #999999;">VPNTree allows you to safely and anonymously connect to any network and access any app or site anywhere for free.</span></h3>
 <h3 style="text-align: center;"><span style="color: #999999;">Anytime you use the web on your phone, VPNTree first redirects your data to a secure network before transmission. We also hide your IP address so your location is un detectable. Whether you want to unblock YouTube or use as a shield proxy when surfing, your data, identity, and location are secure.</span></h3>
 <h3 style="text-align: center;"><span style="color: #999999;">This service is completely free for you.</span></h3>
@@ -21,8 +21,8 @@
 <h2><span style="text-decoration: underline;"><span style="color: #999999; text-decoration: underline;">This application is just for learning purpose as we don't own any VPN server, So it doesn't work.</span></span></h2>
 <h4>&nbsp;</h4>
 <h4>Screenshots:</h4>
-<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/2.png" width="200px" alt="VPNTree"/>
-<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/1.png" width="200px" alt="VPNTree"/>
-<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/3.png" width="200px" alt="VPNTree"/>
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/github_assets/1.png" width="200px" alt="VPNTree"/>
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/github_assets/2.png" width="200px" alt="VPNTree"/>
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/github_assets/3.png" width="200px" alt="VPNTree"/>
 </body>
 </html>

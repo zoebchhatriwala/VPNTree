@@ -21,8 +21,8 @@
 <h2><span style="text-decoration: underline;"><span style="color: #999999; text-decoration: underline;">This application is just for learning purpose as we don't own any VPN server, So it doesn't work.</span></span></h2>
 <h4>&nbsp;</h4>
 <h4>Screenshots:</h4>
-![alt tag](https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/2.png)
-![alt tag](https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/1.png)
-![alt tag](https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/3.png)
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/2.png" width="200px" alt="VPNTree"/>
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/1.png" width="200px" alt="VPNTree"/>
+<img src="https://raw.githubusercontent.com/zoebchhatriwala/VPNTree/master/3.png" width="200px" alt="VPNTree"/>
 </body>
 </html>

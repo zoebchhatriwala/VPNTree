@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.co.zoeb.vpntree.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/connect_btn"
+        android:id="@+id/connect_view"
+        android:contentDescription="@string/contentdescription"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/connected_btn"
+        android:id="@+id/connected_view"
+        android:contentDescription="@string/contentdescription"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/error_connect_btn"
+        android:id="@+id/errorconnect_view"
+        android:contentDescription="@string/contentdescription"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/connect_view"
+        android:layout_alignLeft="@+id/connect_view"
+        android:layout_alignStart="@+id/connect_view"
+        />
+
+</RelativeLayout>

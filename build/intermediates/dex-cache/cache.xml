@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_7a0416f4e6f30c0b92d7e421d4e696f243d656a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4732b1492f87154dfbf1f6c000cd858248284bd6">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cb5c228172458cf4ea0cb3562cea2838ca8b5741\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_6a390b97a1282f46850545db0eb75d03ac167157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_59acfc045af507a8c02849dc6b8fa104d9326fb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_f50068ad860de9676d0245ebdf5aeb70eb4ab37e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_3d6076ec3a3c4918f34b78a9760873d79d5aa070\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\AppData\Local\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_0cd268d76fa673ce6300f0023a295d6ed58b0f09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_531dcb9380d5ce36ed90121b2d205d385107b1e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_d94c94392219639de5262bc86e5117c59b86800a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_8aea1e8595ffdc9b39b1bd5fcb6fb6cda7bc90f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7cf377aa915e8a6fe80c5167916244b86369a930">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bb3d39107798c0232668a8a0bd3b0789fe340825\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_9e33c41876aae3c810da0b3e728298762ac2849e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_7996e3aab129214c757636a3a85d88095312baec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_8d32890476c2e5537bfca90ecceae41314ae465c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_599e8004739a1f951a1cf83bda6183bd61fce268\classes.dex" />
+    </item>
+
+</items>

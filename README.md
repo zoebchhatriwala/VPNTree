@@ -18,5 +18,9 @@
 <h4><span style="color: #999999;">Wether you are an occasional web surfer, or a heavy downloader, you will always receive the best speeds possible with no bandwidth restrictions.</span></h4>
 <h4>&nbsp;</h4>
 <h2><span style="text-decoration: underline;"><span style="color: #999999; text-decoration: underline;">This application is just for learning purpose as we don't own any VPN server, So it doesn't work.</span></span></h2>
- </body>
-  </html>
+<h4>&nbsp;</h4>
+<h4>Screenshots:</h4>
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+</body>
+</html>

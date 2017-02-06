@@ -1,9 +1,6 @@
 # VPNTree
 <html>
-  <head>
-    <title>VPNTree: About App</title>
-  </head> 
-  <body>
+<body>
 <h3 style="text-align: center;"><span style="color: #999999;">VPNTree allows you to safely and anonymously connect to any network and access any app or site anywhere for free.</span></h3>
 <h3 style="text-align: center;"><span style="color: #999999;">Anytime you use the web on your phone, VPNTree first redirects your data to a secure network before transmission. We also hide your IP address so your location is un detectable. Whether you want to unblock YouTube or use as a shield proxy when surfing, your data, identity, and location are secure.</span></h3>
 <h3 style="text-align: center;"><span style="color: #999999;">This service is completely free for you.</span></h3>

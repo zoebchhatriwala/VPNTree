@@ -1,20 +1,23 @@
- package in.co.zoeb.vpntree;
+package in.co.zoeb.vpntree;
 
- import android.app.PendingIntent;
- import android.content.Intent;
- import android.net.VpnService;
- import android.os.Binder;
- import android.os.Handler;
- import android.os.IBinder;
- import android.os.Message;
- import android.os.ParcelFileDescriptor;
- import android.util.Log;
- import android.widget.Toast;
- import java.io.FileInputStream;
- import java.io.FileOutputStream;
- import java.net.InetSocketAddress;
- import java.nio.ByteBuffer;
- import java.nio.channels.DatagramChannel;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.VpnService;
+import android.os.Handler;
+import android.os.Message;
+import android.os.ParcelFileDescriptor;
+import android.support.v4.content.LocalBroadcastManager;
+import android.util.Log;
+import android.widget.Toast;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.net.InetSocketAddress;
+import java.nio.ByteBuffer;
+import java.nio.channels.DatagramChannel;
 
 public class MyVpnService extends VpnService implements Handler.Callback, Runnable {
 
@@ -28,11 +31,12 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
     private Thread mThread;
     private ParcelFileDescriptor mInterface;
     private String mParameters;
-    private final IBinder iBinderObject = new MyLocalBinder();
 
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+
+        startReceiving();
 
         // The handler is only used to show messages.
         if (mHandler == null) {
@@ -52,12 +56,17 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
         mThread.start();
         return START_STICKY;
     }
+
     @Override
     public void onDestroy() {
+
         if (mThread != null) {
             mThread.interrupt();
         }
+
+        stopReceiving();
     }
+
     @Override
     public boolean handleMessage(Message message) {
         if (message != null) {
@@ -65,6 +74,7 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
         }
         return true;
     }
+
     @Override
     public synchronized void run() {
         try {
@@ -82,7 +92,9 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
             // is to work with ConnectivityManager, such as trying only when
             // the network is available. Here we just use a counter to keep
             // things simple.
-            for (int attempt = 0; attempt < 10; ++attempt) {
+            for (int attempt = 0; attempt < 5; ++attempt) {
+
+                sendStatus(0);
                 mHandler.sendEmptyMessage(R.string.connecting);
                 // Reset the counter if we were connected.
                 if (run(server)) {
@@ -102,10 +114,12 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
             }
             mInterface = null;
             mParameters = null;
+            sendStatus(2);
             mHandler.sendEmptyMessage(R.string.disconnected);
             Log.i(TAG, "Exiting");
         }
     }
+
     private boolean run(InetSocketAddress server) throws Exception {
         DatagramChannel tunnel = null;
         boolean connected = false;
@@ -125,7 +139,8 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
             handshake(tunnel);
             // Now we are connected. Set the flag and show the message.
             connected = true;
-            mHandler.sendEmptyMessage(R.string.connect);
+            sendStatus(1);
+            mHandler.sendEmptyMessage(R.string.connected);
             // Packets to be sent are queued in this input stream.
             FileInputStream in = new FileInputStream(mInterface.getFileDescriptor());
             // Packets received need to be written to this output stream.
@@ -210,6 +225,7 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
         }
         return connected;
     }
+
     private void handshake(DatagramChannel tunnel) throws Exception {
         // To build a secured tunnel, we should perform mutual authentication
         // and exchange session keys for encryption. To keep things simple in
@@ -237,6 +253,7 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
         }
         throw new IllegalStateException("Timed out");
     }
+
     private void configure(String parameters) throws Exception {
         // If the old interface has exactly the same parameters, use it!
         if (mInterface != null && parameters.equals(mParameters)) {
@@ -283,21 +300,50 @@ public class MyVpnService extends VpnService implements Handler.Callback, Runnab
         Log.i(TAG, "New interface: " + parameters);
     }
 
-    public class MyLocalBinder extends Binder {
-        MyVpnService getService(){
-            return MyVpnService.this;
-        }
-    }
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        return iBinderObject;
-    }
-
     public void stopVpn() {
+
         if (mThread != null) {
             mThread.interrupt();
         }
+
+        stopReceiving();
         stopSelf();
+    }
+
+    public void sendStatus(int status) {
+
+        Intent intent = new Intent("status");
+
+        // Adding some data
+        intent.putExtra("status_code", status);
+        LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
+    }
+
+    // Handling the received Intents
+    private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            // Extract data included in the Intent
+            boolean status = intent.getBooleanExtra("stop_code", false);
+            if(status) {
+                stopVpn();
+            }
+        }
+
+    };
+
+    private void startReceiving() {
+        // This registers mMessageReceiver to receive messages.
+        LocalBroadcastManager.getInstance(this)
+                .registerReceiver(mMessageReceiver,
+                        new IntentFilter("stopvpn"));
+    }
+
+    public void stopReceiving() {
+        // Unregister since the activity is not visible
+        LocalBroadcastManager.getInstance(this)
+                .unregisterReceiver(mMessageReceiver);
     }
 }

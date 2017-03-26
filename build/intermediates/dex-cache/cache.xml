@@ -3,51 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_7a0416f4e6f30c0b92d7e421d4e696f243d656a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4732b1492f87154dfbf1f6c000cd858248284bd6">
-        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cb5c228172458cf4ea0cb3562cea2838ca8b5741\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_6a390b97a1282f46850545db0eb75d03ac167157\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_59acfc045af507a8c02849dc6b8fa104d9326fb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_f50068ad860de9676d0245ebdf5aeb70eb4ab37e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -93,11 +48,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_7a0416f4e6f30c0b92d7e421d4e696f243d656a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7cf377aa915e8a6fe80c5167916244b86369a930">
+        sha1="564eba3e4efa765a76fbf9a579771050718f3350">
         <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bb3d39107798c0232668a8a0bd3b0789fe340825\classes.dex" />
     </item>
     <item
@@ -111,12 +75,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da0ec6d093e1f593f9964737ea648046014b5182">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cb5c228172458cf4ea0cb3562cea2838ca8b5741\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_6a390b97a1282f46850545db0eb75d03ac167157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
         <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_7996e3aab129214c757636a3a85d88095312baec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_59acfc045af507a8c02849dc6b8fa104d9326fb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Zoeb\Documents\Android\VPNTree\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_f50068ad860de9676d0245ebdf5aeb70eb4ab37e\classes.dex" />
     </item>
     <item
         is-multidex="true"
